@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
 import Coin from './Coin';
-import { createPostfixIncrement } from 'typescript';
 
 function App() {
 	const [coins, setCoins] = useState([]);
